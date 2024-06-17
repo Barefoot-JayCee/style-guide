@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Style Guide</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Master Style Guide</h1>
+
+        <section>
+            <h2>Colors</h2>
+            <table class="style-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Color</th>
+                        <th>CSS Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Burnt Orange</td>
+                        <td class="color-box" style="background-color: var(--color-burnt-orange);"></td>
+                        <td>hsla(18, 100%, 40%, 1)</td>
+                    </tr>
+                    <tr>
+                        <td>Forest Green</td>
+                        <td class="color-box" style="background-color: var(--color-forest-green);"></td>
+                        <td>hsla(120, 61%, 34%, 1)</td>
+                    </tr>
+                    <tr>
+                        <td>Deep Blue</td>
+                        <td class="color-box" style="background-color: var(--color-deep-blue);"></td>
+                        <td>hsla(210, 100%, 20%, 1)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Typography</h2>
+            <table class="style-table">
+                <thead>
+                    <tr>
+                        <th>Font Name</th>
+                        <th>Style</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Montserrat</td>
+                        <td>Regular</td>
+                        <td style="font-family: 'Montserrat', sans-serif; font-weight: 400;">The quick brown fox jumps over the lazy dog.</td>
+                    </tr>
+                    <tr>
+                        <td>Bold</td>
+                        <td style="font-family: 'Montserrat', sans-serif; font-weight: 700;">The quick brown fox jumps over the lazy dog.</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Lora</td>
+                        <td>Regular</td>
+                        <td style="font-family: 'Lora', serif; font-weight: 400;">The quick brown fox jumps over the lazy dog.</td>
+                    </tr>
+                    <tr>
+                        <td>Italic</td>
+                        <td style="font-family: 'Lora', serif; font-style: italic; font-weight: 400;">The quick brown fox jumps over the lazy dog.</td>
+                    </tr>
+                    <tr>
+                        <td>Bold Italic</td>
+                        <td style="font-family: 'Lora', serif; font-style: italic; font-weight: 700;">The quick brown fox jumps over the lazy dog.</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Roboto</td>
+                        <td>Regular</td>
+                        <td style="font-family: 'Roboto', sans-serif; font-weight: 400;">The quick brown fox jumps over the lazy dog.</td>
+                    </tr>
+                    <tr>
+                        <td>Bold</td>
+                        <td style="font-family: 'Roboto', sans-serif; font-weight: 700;">The quick brown fox jumps over the lazy dog.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Text Styles</h2>
+            <table class="style-table">
+                <thead>
+                    <tr>
+                        <th>Element</th>
+                        <th>Style</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Main Heading (H1)</td>
+                        <td>
+                            <code>font-family: 'Montserrat', sans-serif;<br> font-weight: 700;<br> font-size: 2rem;<br> color: var(--color-forest-green);</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Subheading (H2)</td>
+                        <td>
+                            <code>font-family: 'Lora', serif;<br> font-weight: 700;<br> font-size: 1.5rem;<br> color: var(--color-burnt-orange);</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Paragraph (P)</td>
+                        <td>
+                            <code>font-family: 'Montserrat', sans-serif;<br> font-weight: 400;<br> font-size: 1rem;<br> color: var(--color-black);</code>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Text Colors</h2>
+            <table class="style-table">
+                <thead>
+                    <tr>
+                        <th>Background Color</th>
+                        <th>Text Color</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Burnt Orange</td>
+                        <td>White</td>
+                        <td style="background-color: var(--color-burnt-orange); color: var(--color-white);">The quick brown fox jumps over the lazy dog.</td>
+                    </tr>
+                    <tr>
+                        <td>Burnt Orange</td>
+                        <td>Black</td>
+                        <td style="background-color: var(--color-burnt-orange); color: var(--color-black);">The quick brown fox jumps over the lazy dog.</td>
+                    </tr>
+                    <tr>
+                        <td>Forest Green</td>
+                        <td>White</td>
+                        <td style="background-color: var(--color-forest-green); color: var(--color-white);">The quick brown fox jumps over the lazy dog.</td>
+                    </tr>
+                    <tr>
+                        <td>Forest Green</td>
+                        <td>Black</td>
+                        <td style="background-color: var(--color-forest-green); color: var(--color-black);">The quick brown fox jumps over the lazy dog.</td>
+                    </tr>
+                    <tr>
+                        <td>Deep Blue</td>
+                        <td>White</td>
+                        <td style="background-color: var(--color-deep-blue); color: var(--color-white);">The quick brown fox jumps over the lazy dog.</td>
+                    </tr>
+                    <tr>
+                        <td>Deep Blue</td>
+                        <td>Black</td>
+                        <td style="background-color: var(--color-deep-blue); color: var(--color-black);">The quick brown fox jumps over the lazy dog.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Forms</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name">
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your message"></textarea>
+
+                <button type="submit" class="button">Submit</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Icons</h2>
+            <div class="icon-example">
+                <i class="fas fa-home"></i> Home
+                <i class="fas fa-user"></i> About
+                <i class="fas fa-briefcase"></i> Portfolio
+                <i class="fas fa-envelope"></i> Contact
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-github"></i>
+            </div>
+        </section>
+
+        <section>
+            <h2>Alerts and Notifications</h2>
+            <div class="alert alert-success">This is a success message!</div>
+            <div class="alert alert-error">This is an error message!</div>
+        </section>
+
+        <section>
+            <h2>Layout</h2>
+            <div class="grid-container">
+                <header class="header">Header</header>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <main class="main">Main Content</main>
+                <aside class="sidebar">Sidebar</aside>
+                <footer class="footer">Footer</footer>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
