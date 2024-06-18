@@ -157,6 +157,18 @@ h2 {
     }
 }
 
+/* Additional Breakpoints for Better Responsiveness */
+@media (max-width: 64rem) {
+    .container {
+        width: 90%;
+        padding: var(--padding-medium);
+    }
+
+    .header, .nav, .main, .sidebar, .footer {
+        padding: var(--padding-medium);
+    }
+}
+
 .button {
     background: var(--color-white);
     border-radius: var(--border-radius);
